@@ -1,16 +1,8 @@
 
-
 var buttonElement1 = document.getElementById('b1')
 var buttonElement2 = document.getElementById('b2')
 var buttonElement3 = document.getElementById('b3')
 var buttonElement4 = document.getElementById('b4')
-
-
-/*
-buttonElement1.addEventListener('click', function() {
-    console.log('I was clicked!')
-})
-*/
 
 buttonElement1.onclick = () => {
     document.getElementById('bad_disk_x').play()
@@ -29,12 +21,17 @@ buttonElement4.onclick = () => {
     document.getElementById('bloop_x').play()
 }
 
-
+/*
+buttonElement1.addEventListener('click', function() {
+    console.log('I was clicked!')
+})
+*/
 
 
 
 
 /*
+Graveyard
 buttonElement2.addEventListener('click', function() {
     //console.log('I was clicked!')
     
