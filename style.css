@@ -1,0 +1,28 @@
+body {
+    background: rgb(43, 41, 41);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    color: whitesmoke;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 150px;
+    box-shadow: rgba(255, 251, 251, 0.1) 10px 10px 10px;
+}
+
+.button:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
