@@ -17,6 +17,7 @@ h1 {
 
 .button {
     background-color: blanchedalmond;
+    border-radius: 20px;
     height: 150px;
     width: 150px;
     box-shadow: rgba(255, 251, 251, 0.1) 10px 10px 10px;
